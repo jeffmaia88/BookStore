@@ -8,7 +8,7 @@ namespace BookStore.Controllers
 {
 
     [ApiController]
-    [Route("v1/relatorios")]
+    [Route("v1/")]
     public class RelatorioController : ControllerBase
     {
         private readonly RelatorioEmprestimo _relatorioEmprestimo;

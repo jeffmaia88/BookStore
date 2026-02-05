@@ -1,0 +1,34 @@
+## Build results
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## ASP.NET Core
+appsettings.Development.json
+
+## Database
+*.mdf
+*.ldf
+
+## EF Core
+Migrations/*.cs
+!Migrations/*Initial*.cs

@@ -96,5 +96,9 @@ GET /v1/relatorios/livros/indisponiveis
 GET /v1/relatorios/emprestimos/periodo?inicio=YYYY-MM-DD&fim=YYYY-MM-DD
 
 
+## Observações
+
+Removi o Password da ConnectionString, para não haver problemas com o Github
+
 
 --- Projeto Realizado pelo Aspirante a Vaga de Analista de Sistema - JEfferson dos Reis Maia -

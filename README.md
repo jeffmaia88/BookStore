@@ -74,26 +74,26 @@ Separei as camadas da seguinte forma para melhor entendimento e desacomplamento:
 
 ### Livros
 
-**GET** /v1/livros
-**GET** /v1/livros?page={page}&pageSize={pageSize}
-**POST** /v1/livros
-**PUT** /v1/livros/{id}
-**DELETE** /v1/livros/{id}
+- **GET** /v1/livros
+- **GET** /v1/livros?page={page}&pageSize={pageSize}
+- **POST** /v1/livros
+- **PUT** /v1/livros/{id}
+- **DELETE** /v1/livros/{id}
 
 ### Empréstimos
 
-**GET** /v1/livros
-**GET** /v1/livros?page={page}&pageSize={pageSize}
-**POST** /v1/livros
-**PUT** /v1/livros/{id}
-**DELETE** /v1/livros/{id}
+- **GET** /v1/livros
+- **GET** /v1/livros?page={page}&pageSize={pageSize}
+- **POST** /v1/livros
+- **PUT** /v1/livros/{id}
+- **DELETE** /v1/livros/{id}
 
 ### Relatórios
 
-GET /v1/relatorios/livros/estoque
-GET /v1/relatorios/livros/acervo
-GET /v1/relatorios/livros/indisponiveis
-GET /v1/relatorios/emprestimos/periodo?inicio=YYYY-MM-DD&fim=YYYY-MM-DD
+- GET /v1/relatorios/livros/estoque
+- GET /v1/relatorios/livros/acervo
+- GET /v1/relatorios/livros/indisponiveis
+- GET /v1/relatorios/emprestimos/periodo?inicio=YYYY-MM-DD&fim=YYYY-MM-DD
 
 
 ## Observações
